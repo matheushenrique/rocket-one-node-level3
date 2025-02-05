@@ -48,6 +48,10 @@ npx prisma studio
 ```
 ### Zod
 ### Docker
+To create docker with the image provided in docker-compose file
+```
+docker compose up -d
+```
 
 
 ## TODO
