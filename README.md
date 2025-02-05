@@ -37,6 +37,15 @@ GymPass style app
 ### Eslint
 ### Fastify
 ### Prisma
+
+To auto generate migration
+``` 
+npx prisma migrate dev
+```
+To see the tables and the data in the database
+```
+npx prisma studio
+```
 ### Zod
 ### Docker
 
