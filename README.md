@@ -30,3 +30,8 @@ GymPass style app
 - [ ] Application data need to be persisted in a postgresql bank;
 - [ ] All data lists need to be paid with 20 items per page;
 - [ ] The user must be identified by a JWT (JSON Web Token);
+
+## TODO
+
+take a look at renovate to automate process of updates
+https://docs.renovatebot.com/getting-started/use-cases/
