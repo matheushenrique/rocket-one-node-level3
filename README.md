@@ -31,6 +31,16 @@ GymPass style app
 - [ ] All data lists need to be paid with 20 items per page;
 - [ ] The user must be identified by a JWT (JSON Web Token);
 
+## Tools and Technologies used
+
+### Typescript
+### Eslint
+### Fastify
+### Prisma
+### Zod
+### Docker
+
+
 ## TODO
 
 take a look at renovate to automate process of updates
