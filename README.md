@@ -53,6 +53,8 @@ To create docker with the image provided in docker-compose file
 docker compose up -d
 ```
 
+### Vitest
+
 
 ## TODO
 
