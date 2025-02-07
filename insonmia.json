@@ -1,5 +1,5 @@
 {
-  "__export_date": "2023-02-26T19:02:34.927Z",
+  "__export_date": "2023-03-02T20:59:58.867Z",
   "__export_format": 4,
   "__export_source": "insomnia.desktop.app:v2022.7.5",
   "_type": "export",
@@ -10,7 +10,7 @@
       "authentication": {},
       "body": {
         "mimeType": "application/json",
-        "text": "{\n\t\"name\": \"\",\n\t\"email\": \"\",\n\t\"password\": \"123456\"\n}"
+        "text": "{\n\t\"name\": \"\",\n\t\"email\": \"\",\n\t\"password\": \"\"\n}"
       },
       "created": 1677437965899,
       "description": "",
@@ -23,7 +23,7 @@
       "isPrivate": false,
       "metaSortKey": -1677437965899,
       "method": "POST",
-      "modified": 1677438080778,
+      "modified": 1677790765129,
       "name": "Create User",
       "parameters": [],
       "parentId": "wrk_684ab39119314a10a7bd0a69669a814f",
@@ -44,6 +44,37 @@
       "name": "Ignite - API SOLID Node.js",
       "parentId": null,
       "scope": "collection"
+    },
+    {
+      "_id": "req_352251d4b0f44a74bbd65f5892cdf3e5",
+      "_type": "request",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"email\": \"\",\n\t\"password\": \"\"\n}"
+      },
+      "created": 1677789216671,
+      "description": "",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1677269932435.5,
+      "method": "POST",
+      "modified": 1677790769290,
+      "name": "Authenticate",
+      "parameters": [],
+      "parentId": "wrk_684ab39119314a10a7bd0a69669a814f",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3333/sessions"
     },
     {
       "_id": "env_07c89d012abdc5ec75fc8ab18b236222a49c2d5c",
