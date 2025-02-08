@@ -18,7 +18,7 @@ GymPass style app
 ## RNs (business rules)
 
 - [x] The user should not be able to register with a duplicate email;
-- [ ] The user cannot do 2 check-in on the same day;
+- [x] The user cannot do 2 check-in on the same day;
 - [ ] The user cannot check in if not close (100m) from the gym;
 - [ ] Check-in can only be validated up to 20 minutes after being created;
 - [ ] Check-in can only be validated by administrators;
