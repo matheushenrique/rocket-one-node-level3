@@ -5,7 +5,7 @@ GymPass style app
 ## RFs (functions rules)
 
 - [x] It should be possible to register;
-- [ ] It should be possible to authenticate;
+- [x] It should be possible to authenticate;
 - [ ] It should be possible to obtain the profile of a logged user;
 - [ ] It should be possible to obtain the number of check-ins performed by the logged user;
 - [ ] It should be possible for the user to obtain their check-ins history;
