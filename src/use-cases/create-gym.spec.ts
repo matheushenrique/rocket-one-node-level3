@@ -8,7 +8,7 @@ describe('Create Gym Use Case', () => {
     gymsRepository = new InMemoryGymsRepository()
     sut = new CreateGymUseCase(gymsRepository)
   })
-  it('should to create gym', async () => {
+  it('should create gym', async () => {
     const { gym } = await sut.execute({
       title: 'JavaScript Gym',
       description: null,
